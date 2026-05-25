@@ -1,0 +1,66 @@
+name: medicine_reminder_app
+description: "A new Flutter project for the MediMATE Medication Reminder System."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  
+  # --- LOCALIZATION & STATE ---
+  flutter_localizations: 
+    sdk: flutter         
+  intl: ^0.18.1         
+  provider: ^6.1.2
+  easy_localization: ^3.0.7 # Added for easy dynamic language switching
+
+  # --- DATA & FORMATTING ---
+  flutter_svg: ^2.0.10+1
+
+  # --- FIREBASE ---
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.19.7
+  cloud_firestore: ^4.17.5
+  firebase_storage: ^11.7.7
+
+  # --- NOTIFICATIONS & AUDIO ---
+  firebase_messaging: ^14.9.4
+  flutter_local_notifications: ^17.2.1
+  audioplayers: ^6.1.0 
+
+  # --- BACKGROUND TASKS ---
+  workmanager: ^0.5.2
+
+  # --- MEDIA ---
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/appicon.png"
+  adaptive_icon_background: "#FDF2F8"
+  adaptive_icon_foreground: "assets/images/appicon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo.png
+    - assets/images/appicon.png
+    - assets/icons/pills.svg
+    - assets/icons/drops.svg
+    - assets/icons/syrup.svg
+    - assets/icons/injection.svg
+    - assets/audio/
+    - assets/translations/
