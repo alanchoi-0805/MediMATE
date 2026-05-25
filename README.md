@@ -25,4 +25,4 @@ MediMATE is an IoT healthcare ecosystem designed to improve elderly medication a
 ## Project Installer
 ### Android Application Installer
 You can download the compiled production-ready `.apk` package to test the user interface directly on an Android device.
-👉 [Download the MediMATE v1.0.0 APK](https://github.com/alanchoi-0805/MediMATE/releases)
+- 👉 [Download the MediMATE v1.0.0 APK](https://github.com/alanchoi-0805/MediMATE/releases)
